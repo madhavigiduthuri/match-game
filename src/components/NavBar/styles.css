@@ -1,0 +1,52 @@
+.navbar-top-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbar-image {
+    width: 200px;
+    height: 50px;
+}
+
+.score-timer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.score-box {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+}
+
+.score-header {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+    align-items: center;
+    gap: 5px;
+}
+
+.timer-header {
+    color: #ffffff;
+    font-size: 20px;
+    color:  #fec653;
+}
+
+.timer-image {
+    width: 25px;
+    height: 25px;
+}
+
+.score-num {
+    color:  #fec653;
+}
